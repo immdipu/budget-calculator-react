@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.alert-success {
+    background-color: #08c7085e;
+    color: #064006;
+    font-size: large;
+    padding: 8px 15px 9px 15px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.alert-danger {
+    background-color: #ff04045e;
+    color: #a70b0b;
+    font-size: large;
+    padding: 8px 15px 9px 15px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
